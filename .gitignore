@@ -1,0 +1,66 @@
+# Arquivos do Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.production
+
+# Diretórios de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Diretórios de dependências
+venv/
+env/
+ENV/
+.env/
+.venv/
+venv*/
+*.venv
+
+# Arquivos de cache e testes
+.coverage
+htmlcov/
+.pytest_cache/
+*.mo
+
+# Arquivos do macOS
+.DS_Store
+
+# Arquivos do Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Arquivos de usuário
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Diretórios de migrações (exceto os arquivos .py)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Arquivos estáticos gerados
+staticfiles/
+
+# Arquivos de configuração local
+settings/local.py
+
+# Arquivos de banco de dados
+*.db
+*.sqlite
+
+# Diretórios de node (caso tenha frontend)
+node_modules/
